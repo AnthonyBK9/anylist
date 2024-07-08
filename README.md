@@ -21,5 +21,6 @@ yarn start:dev
 ```
 6. Visitar el sitio
 ```
-localhost:3000/graphql
+localhost:3000/graphql`
 ```
+``
