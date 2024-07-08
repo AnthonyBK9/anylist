@@ -33,7 +33,7 @@ export class ItemsService {
     if(!item)throw new NotFoundException(`Item with id: ${ id } not found`);
     return this.itemsRepository.save( item );
   }
-
+  
   async remove(id: string): Promise<Item> {
     //TODO: soft delete, integridad referencial
     const item = await this.findOne(id);
